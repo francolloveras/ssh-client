@@ -1,0 +1,42 @@
+{
+  "name": "@francolloveras/shh-client",
+  "version": "0.1.0",
+  "description": "A reusable TypeScript SSH client for interactive CLI sessions.",
+  "author": "Franco Lloveras",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "@types/ssh2": "1.15.6",
+    "ssh2": "1.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.19.130",
+    "typescript": "5.9.3"
+  },
+  "keywords": [
+    "ssh",
+    "ssh2",
+    "terminal",
+    "cli"
+  ]
+}
