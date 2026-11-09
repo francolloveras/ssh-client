@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "@francolloveras/shh-client",
+      "name": "@francolloveras/ssh-client",
       "dependencies": {
         "@types/ssh2": "1.15.6",
         "ssh2": "1.17.0",

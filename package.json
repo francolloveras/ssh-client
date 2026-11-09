@@ -1,5 +1,5 @@
 {
-  "name": "@francolloveras/shh-client",
+  "name": "@francolloveras/ssh-client",
   "version": "0.1.0",
   "description": "A reusable TypeScript SSH client for interactive CLI sessions.",
   "author": "Franco Lloveras",

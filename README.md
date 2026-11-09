@@ -1,4 +1,4 @@
-# @francolloveras/shh-client
+# @francolloveras/ssh-client
 
 A TypeScript SSH client for running commands in interactive SSH shells, including
 devices that display a CLI login prompt after the SSH connection is established.
@@ -11,13 +11,13 @@ devices that display a CLI login prompt after the SSH connection is established.
 ## Installation
 
 ```sh
-npm install @francolloveras/shh-client
+npm install @francolloveras/ssh-client
 ```
 
 ## Usage
 
 ```ts
-import { SSHClient } from '@francolloveras/shh-client'
+import { SSHClient } from '@francolloveras/ssh-client'
 
 const ssh = new SSHClient({
   config: {
